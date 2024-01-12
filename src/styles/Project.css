@@ -1,0 +1,62 @@
+
+
+.projectContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectHeader {
+  color: rgb(240, 240, 240);
+  font-size: 5rem;
+}
+
+/* box styling */
+.linkToGithub {
+  text-decoration: none;
+  color: black;
+}
+.projectItem {
+  border: 1px solid black;
+  background: white;
+  width: 750px;
+  height: 250px;
+  box-shadow: 20px 20px;
+  display: flex;
+  margin: 20px 20px 5rem 20px;
+}
+
+.projectItem:hover {
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+
+.projectItem #pImg {
+  flex: 1;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectItem .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background: white;
+}
+
+.projectItem h1,
+.projectItem p {
+  margin: 0;
+}
+
+.conc {
+  margin-top: 30px;
+  color: rgb(240, 240, 240);
+  font-size: 2rem;
+}
