@@ -1,1 +1,1 @@
-THIS IS THE REPOSITORY FOR THE REACT FILES. WEBSITE IS DEPLOYED AT ERIKTSAI.GITHUB.IO
+This is the repository for the react files of my personal website. Website is deployed at eriktsai.github.io
